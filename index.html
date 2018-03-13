@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>Formulario de registro</title>
+  </head>
+  <body>
+    <h1>Registro en nuestra tienda</h1>
+    <form autocomplete="on" name="Mi primer Formulario">
+      <p>
+        <label for="Nombre de usuario">Nombre de usuario:</label>
+        <br>
+        <input type="text" placeholder="Ej. Jose" autofocus required>
+      </p>
+      <p>
+        <label for="email">Email:</label>
+        <br>
+        <input type="email" placeholder="Ej: tunombre@mail.com" required>
+      </p>
+      <p>
+        <label for="edad">Edad:</label>
+        <br>
+        <input type="number" placeholder="Ej:33" required>
+      </p>
+      <p>
+        <label for="fecha de nacimiento">Fecha de nacimiento:</label>
+        <br>
+        <input type="date">
+      </p>
+      <p>
+        <label for="género">Género:</label>
+        <br>
+        <input type="radio">Másculino
+        <br>
+        <input type="radio">Femenino
+      </p>
+
+      <p>
+        <label for="Recomendado por:">Recomendado por:</label>
+        <br>
+        <select>
+          <option value="Google">Google</option>
+          <option value="Amigo">Amigo</option>
+          <option value="Redes Sociales">Redes Sociales</option>
+        </select>
+      </p>
+      <p>
+        <label for="Comentarios">Comentarios</label>
+        <br>
+          <textarea name="Comentarios" rows="5" cols="40"></textarea>
+      </p>
+      <p>
+        <label for="Acepto términos y condiciones">Acepto términos y condiciones:</label>
+        <br>
+        <input type="checkbox" name="Acepto términos y condiciones" required>
+      </p>
+      <p>
+        <button type="submit" name="Registrar">Registrar</button>
+      </p>
+    </form>
+  </body>
+</html>
